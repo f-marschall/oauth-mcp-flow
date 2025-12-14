@@ -1,3 +1,5 @@
+# Authentication Flow at Azure Entra ID
+Since Azure doesn’t support Dynamic Client Registration, this integration uses the OAuth Proxy pattern to bridge Azure’s traditional OAuth with MCP’s authentication requirements.
 ## Configuration
 1. Rename .env.example to .env and change the variables
 2. https://fastmcp.mintlify.app/integrations/azure
